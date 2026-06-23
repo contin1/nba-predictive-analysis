@@ -7,7 +7,7 @@ Requirement already satisfied: requests in /usr/local/lib/python3.10/dist-packag
 Requirement already satisfied: nba-api in /usr/local/lib/python3.10/dist-packages (1.5.0)
 Collecting shap
   Downloading shap-0.46.0-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (540 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 540.1/540.1 kB 5.8 MB/s eta 0:00:00
+540.1/540.1 kB 5.8 MB/s eta 0:00:00
 Requirement already satisfied: python-dateutil>=2.8.2 in /usr/local/lib/python3.10/dist-packages (from pandas) (2.8.2)
 Requirement already satisfied: pytz>=2020.1 in /usr/local/lib/python3.10/dist-packages (from pandas) (2023.4)
 Requirement already satisfied: tzdata>=2022.1 in /usr/local/lib/python3.10/dist-packages (from pandas) (2024.1)
