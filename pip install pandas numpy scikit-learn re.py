@@ -1,34 +1,3 @@
-pip install pandas numpy scikit-learn requests nba-api shap
-     
-Requirement already satisfied: pandas in /usr/local/lib/python3.10/dist-packages (2.0.3)
-Requirement already satisfied: numpy in /usr/local/lib/python3.10/dist-packages (1.25.2)
-Requirement already satisfied: scikit-learn in /usr/local/lib/python3.10/dist-packages (1.2.2)
-Requirement already satisfied: requests in /usr/local/lib/python3.10/dist-packages (2.31.0)
-Requirement already satisfied: nba-api in /usr/local/lib/python3.10/dist-packages (1.5.0)
-Collecting shap
-  Downloading shap-0.46.0-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (540 kB)
-540.1/540.1 kB 5.8 MB/s eta 0:00:00
-Requirement already satisfied: python-dateutil>=2.8.2 in /usr/local/lib/python3.10/dist-packages (from pandas) (2.8.2)
-Requirement already satisfied: pytz>=2020.1 in /usr/local/lib/python3.10/dist-packages (from pandas) (2023.4)
-Requirement already satisfied: tzdata>=2022.1 in /usr/local/lib/python3.10/dist-packages (from pandas) (2024.1)
-Requirement already satisfied: scipy>=1.3.2 in /usr/local/lib/python3.10/dist-packages (from scikit-learn) (1.11.4)
-Requirement already satisfied: joblib>=1.1.1 in /usr/local/lib/python3.10/dist-packages (from scikit-learn) (1.4.2)
-Requirement already satisfied: threadpoolctl>=2.0.0 in /usr/local/lib/python3.10/dist-packages (from scikit-learn) (3.5.0)
-Requirement already satisfied: charset-normalizer<4,>=2 in /usr/local/lib/python3.10/dist-packages (from requests) (3.3.2)
-Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.10/dist-packages (from requests) (3.7)
-Requirement already satisfied: urllib3<3,>=1.21.1 in /usr/local/lib/python3.10/dist-packages (from requests) (2.0.7)
-Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.10/dist-packages (from requests) (2023.11.17)
-Requirement already satisfied: tqdm>=4.27.0 in /usr/local/lib/python3.10/dist-packages (from shap) (4.66.4)
-Requirement already satisfied: packaging>20.9 in /usr/local/lib/python3.10/dist-packages (from shap) (24.1)
-Collecting slicer==0.0.8 (from shap)
-  Downloading slicer-0.0.8-py3-none-any.whl (15 kB)
-Requirement already satisfied: numba in /usr/local/lib/python3.10/dist-packages (from shap) (0.58.1)
-Requirement already satisfied: cloudpickle in /usr/local/lib/python3.10/dist-packages (from shap) (2.2.1)
-Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.10/dist-packages (from python-dateutil>=2.8.2->pandas) (1.16.0)
-Requirement already satisfied: llvmlite<0.42,>=0.41.0dev0 in /usr/local/lib/python3.10/dist-packages (from numba->shap) (0.41.1)
-Installing collected packages: slicer, shap
-Successfully installed shap-0.46.0 slicer-0.0.8
-
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
