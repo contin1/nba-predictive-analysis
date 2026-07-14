@@ -88,7 +88,7 @@ print("Accuracy:", accuracy_score(y_test, y_pred))
 print(classification_report(y_test, y_pred))
      
 Accuracy: 0.5959557781347444
-        precision    recall  f1-score   support
+precision    recall  f1-score   support
 
            0       0.59      0.61      0.60     10525
            1       0.60      0.58      0.59     10641
