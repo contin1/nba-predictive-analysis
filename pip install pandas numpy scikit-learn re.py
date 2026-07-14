@@ -82,8 +82,6 @@ model = RandomForestClassifier(n_estimators=100, random_state=42)
 model.fit(X_train, y_train)
      
 RandomForestClassifier(random_state=42)
-In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook.
-On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.
 
 y_pred = model.predict(X_test)
 print("Accuracy:", accuracy_score(y_test, y_pred))
